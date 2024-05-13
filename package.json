@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "its a task runner for gulp tasks",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,6 +14,7 @@
   "author": "Dhareppa",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "^5.0.0"
+    "gulp": "^5.0.0",
+    "gulp-imagemin": "^9.1.0"
   }
 }
